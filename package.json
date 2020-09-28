@@ -4,7 +4,7 @@
   "description": "Loco protocol compatible library",
   "main": "dist/index.js",
   "scripts": {
-     "build": "node-kakao build --output public",
+     "build": "build --output public",
     "test": "./node_modules/.bin/mocha -r ts-node/register ./tests/*.test.ts",
     "locotest": "./node_modules/.bin/ts-node loco-test.ts",
     "docs": "./node_modules/.bin/typedoc src",
